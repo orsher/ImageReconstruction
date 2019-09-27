@@ -34,3 +34,6 @@ reconstruct --help
 reconstruct GeneticAlgo --help
 reconstruct --image ./data/monaliza.jpg --shape Triangle GeneticAlgo --max-generations 10000 --number-of-shapes 50
 ```
+
+### Example output
+![alt text](data/example.png)

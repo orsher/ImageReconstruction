@@ -1,0 +1,15 @@
+{
+    "package_info": {
+        "friendly_name": "ImageReconstruction",
+        "module_name": "image_reconstruction",
+        "description": "Image Reconstruction From Shapes",
+        "url": "https://github.com/or.sher/ImageReconstruction",
+        "author": "Or Sher",
+        "author_email": "or.sher1@gmail.com"
+    },
+    "entry_points": {
+        "console_scripts": [
+            "reconstruct=image_reconstruction.reconstruct:main"
+        ]
+    }
+}

@@ -7,28 +7,28 @@ Currently supported shapes: Circle, Triangle
 Tested on Ubuntu 18.10 & python 3.7.3
 ## Usage
 
-###Create and use virtual env:
+### Create and use virtual env:
 ```$xslt
 virtualenv -p `which python3` venv
 source venv/bin/activate
 ```
 
-###Install dependencies:
+### Install dependencies:
 ```$xslt
 pip install -r requirements.txt
 ```
 
-###test:
+### test:
 ```$xslt
 pytest
 ```
 
-###Install as package
+### Install as package
 ```$xslt
 pip install -U .
 ```
 
-###Run
+### Run
 ```$xslt
 reconstruct --help
 reconstruct GeneticAlgo --help
